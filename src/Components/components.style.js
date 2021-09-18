@@ -12,9 +12,11 @@ export const ContentStyle = styled.section`
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 2rem;
+  display: grid;
+  place-content: center;
   img {
     width: 100%;
-    height: 100%;
+    height: 90vh;
     object-fit: contain;
   }
 `;
