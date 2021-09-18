@@ -5,6 +5,7 @@ export const SidebarStyle = styled.section`
   display: grid;
   max-height: 100vh;
   grid-template-rows: 7fr 3fr;
+  background-color: black;
 `;
 
 export const ContentStyle = styled.section`
